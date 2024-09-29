@@ -1,0 +1,15 @@
+.LoginForm{
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.BodyForm{
+    background-color: aquamarine;
+    padding:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+

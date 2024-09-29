@@ -1,0 +1,30 @@
+input{
+    padding: 10px;
+    font-family: Arial,'Times New Roman';
+    font-size: 20px;
+    border-radius: 10px;
+    border-width: 1px;
+}
+button {
+    width: 200px;
+    background-color: lightpink;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer; /* Default cursor for enabled buttons */
+}
+
+/* Default state for disabled buttons */
+button:disabled {
+    background-color: #ccc; /* Grey background */
+    color: #666; /* Grey text */
+    cursor: not-allowed; /* Not allowed cursor */
+}
+
+/* Hover effect for disabled buttons */
+button:disabled:hover {
+    background-color: #ccc; /* Keep the grey background */
+    color: #666; /* Keep the grey text */
+    text-decoration: underline; /* Underline text to indicate unavailability */
+}
