@@ -1,0 +1,28 @@
+# Logs
+*.log
+logs/
+*.log.*
+
+# Ignore node_modules for JavaScript/Node.js projects
+node_modules/
+
+# OS generated files
+.DS_Store  # macOS
+Thumbs.db  # Windows
+
+# Ignore environment variable files
+.env
+
+# Ignore build and output directories
+dist/
+build/
+out/
+
+# Ignore temporary files and directories
+*.tmp
+*.temp
+*.swp
+*~
+
+# Git specific
+*.orig
