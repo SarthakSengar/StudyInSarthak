@@ -4,6 +4,8 @@
   },
   "scripts": {
     "postinstall": "husky install",
-    "prepare": "husky"
+    "prepare": "husky",
+    "test": "echo 'test cases'",
+    "lint": "echo 'test cases'"
   }
 }
