@@ -1,9 +1,24 @@
 {
-  "devDependencies": {
-    "nodemon": "^3.1.7"
-  },
+  "name": "studyinsarthak",
+  "version": "1.0.0",
+  "description": "STUDY IN (Student utility site)",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "postinstall": "husky install",
+    "prepare": "husky",
+    "lint": "echo 'test cases'",
     "start": "node index.js",   
-    "dev": "nodemon index.js"    
+    "dev": "nodemon index.js" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "husky": "^9.1.6",
+    "globals": "^15.9.0",
+    "nodemon": "^3.1.7"
   }
 }
