@@ -1,11 +1,21 @@
 {
-  "devDependencies": {
-    "husky": "^9.1.6"
-  },
+  "name": "studyinsarthak",
+  "version": "1.0.0",
+  "description": "STUDY IN (Student utility site)",
+  "main": "index.js",
   "scripts": {
+    "test": "echo \"Error: no test specified\"",
     "postinstall": "husky install",
     "prepare": "husky",
-    "test": "echo 'test cases'",
     "lint": "echo 'test cases'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "eslint": "^9.11.1",
+    "husky": "^9.1.6",
+    "globals": "^15.9.0"
   }
 }
