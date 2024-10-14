@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <script defer src="script.js"></script> 
+  <link rel="stylesheet" href="/StudyInSarthak/styles/form.css">
+  <link rel="stylesheet" href="/StudyInSarthak/styles/general.css">
+</head>
+<body>
+  
+<div class= "LoginForm">
+    <h1>Login Page</h1>
+    <div class="BodyForm">
+        <form id="loginForm" onsubmit="return handleLogin(event)" >
+            <div class="FormItems">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" placeholder="Enter username" required><br><br>
+        
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" placeholder="Enter password" required><br><br>
+        
+            <input type="submit" value="Login" class="LoginButton">
+        </form>
+
+    </div>
+</div>  
+  <p id="errorMessage" style="color: red;"></p>
+
+  <!-- Predefined buttons for different roles -->
+  <div id="roleFunctions" style="margin-top: 20px;">
+      <button id="accessLibraryBtn" disabled>Access Library</button>
+      <button id="checkGradesBtn" disabled>Check Grades</button>
+      <button id="manageAssignmentsBtn" disabled>Manage Assignments</button>
+      <button id="viewStudentReportsBtn" disabled>View Student Reports</button>
+      <button id="manageUsersBtn" disabled>Manage Users</button>
+      <button id="viewSystemLogsBtn" disabled>View System Logs</button>
+  </div>
+
+</body>
+</html>
